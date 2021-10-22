@@ -15,7 +15,8 @@ GET: SERVERNAME:PORT/api.NAME/ENV/MODELNAME/ID/SORTFIELD1_[desc|asc],SORTFIELD2_
 
 ## Ejemplos:
 ### Recupera 1 registro:
-> localhost:8081/api.viaken/x/Expositor/1   o  localhost:8081/api.viaken/x/Expositor/{"Expositor":1}  
+> localhost:8081/api.viaken/x/Expositor/1   
+> localhost:8081/api.viaken/x/Expositor/{"Expositor":1}  
 
 ### Resultado
 ```json
