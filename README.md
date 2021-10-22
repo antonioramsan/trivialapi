@@ -30,6 +30,22 @@ GET: SERVERNAME:PORT/api.NAME/ENV/MODELNAME/ID/SORTFIELD1_[desc|asc],SORTFIELD2_
 
 ### Recupera todos los registros:
 > localhost:8081/api.viaken/x/Expositor
+
+### Resultado
+```json
+[
+	{
+		"modelname":"Expositor",
+		"Expositor":1,
+		"Nombre":"Antonio"
+	},
+	{
+		"modelname":"Expositor",
+		"Expositor":2,
+		"Nombre":"Leonardo"
+	}	
+]
+```	
 	
 ### Recupera todos los registros ordenados por nombre  descendente :
 > localhost:8081/api.viaken/x/Expositor/Nombre_desc	
