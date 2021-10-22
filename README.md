@@ -22,6 +22,9 @@ GET: SERVERNAME:PORT/api.NAME/ENV/MODELNAME/ID/SORTFIELD1_[desc|asc],SORTFIELD2_
 	
 ### Recupera todos los registros ordenados por nombre  descendente :
 > localhost:8081/api.viaken/x/Expositor/Nombre_desc	
+
+### Recupera todos los registros al nivel 2 :
+> localhost:8081/api.viaken/x/Estado/L2	
 	
 > Estructura de la escritura
 
