@@ -236,4 +236,26 @@ http://trivialsoft.com/api.viakon/x/Encuesta/1/_full
 ```
 
 
+## Recuperar una imagen
+
+```plain
+{
+        "modelname": "Archivo",
+        "Archivo": "13",
+        "Nombre": "test",
+        "NombreOriginal": "test.png",
+        "Descripcion": "",
+        "MimeType": "image\/png",
+        "PathSistema": "66f3ffcee7c00ab2f1272a12c00f9846.png",
+        "TipoArchivo": "1",
+        "Contenido": ""
+}
+
+
+http://trivialsoft.com/api.viakon/x/Archivo.ArchivoApp/Read/{"id":"66f3ffcee7c00ab2f1272a12c00f9846.png"}
+
+```
+
+
+
 
