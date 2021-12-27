@@ -239,6 +239,8 @@ http://trivialsoft.com/api.viakon/x/Encuesta/1/_full
 ## Recuperar una imagen
 
 ```plain
+//  esta es la estructura de un instancia de Archivo(Imagen)
+// Contenido no viene lleno por default
 {
         "modelname": "Archivo",
         "Archivo": "13",
@@ -251,7 +253,7 @@ http://trivialsoft.com/api.viakon/x/Encuesta/1/_full
         "Contenido": ""
 }
 
-
+// -- para recuperar la instancia con el contenido en Base64 usar el siguiente EndPoint
 http://trivialsoft.com/api.viakon/x/Archivo.ArchivoApp/Read/{"id":"66f3ffcee7c00ab2f1272a12c00f9846.png"}
 
 ```
