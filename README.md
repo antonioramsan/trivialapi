@@ -213,4 +213,27 @@ POST: SERVERNAME:PORT/api.NAME/ENV/ANYCOLLECTION/ACTIONAME
 ]
 ```
 
+> Estructura de la escritura
+
+POST: SERVERNAME:PORT/api.NAME/ENV/ANYCOLLECTION/ACTIONAME
+
+## Como Guardar
+```plain
+[
+{
+"modelname":"Encuesta",
+"Encuesta":3,
+"Nombre":"Encuesta DOS"
+}
+]
+```
+
+> Ejemplo de recuperacion
+
+## Recuperar Encuesta 1
+```plain
+http://trivialsoft.com/api.viakon/x/Encuesta/1/_full 
+```
+
+
 
