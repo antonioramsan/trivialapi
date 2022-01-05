@@ -258,6 +258,11 @@ http://trivialsoft.com/api.viakon/x/Archivo.ArchivoApp/Read/{"id":"66f3ffcee7c00
 
 ```
 
+## Recuperar los tipos de preguntas 
+
+```plain
+http://trivialsoft.com/api.viakon/x/TipoPregunta
+```
 
 
 
