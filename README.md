@@ -267,6 +267,7 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 ## Ejemplo de guardar respuestas del usuario 
 
 ```plain
+[
 {
 	"modelname":"RespuestaUsuario",
 	"RespuestaUsuario":"",
@@ -319,4 +320,5 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 	"RespuestaEncuesta":13,
 	"Valor":""
 }
+]
 ```
