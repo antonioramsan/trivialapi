@@ -264,5 +264,59 @@ http://trivialsoft.com/api.viakon/x/Archivo.ArchivoApp/Read/{"id":"66f3ffcee7c00
 http://trivialsoft.com/api.viakon/x/TipoPregunta
 ```
 
+## Ejemplo de guardar respuestas del usuario 
 
-
+```plain
+{
+	"modelname":"RespuestaUsuario",
+	"RespuestaUsuario":"",
+	"Encuesta":1,
+	"Usuario":1,
+	"PreguntaEncuesta":33,
+	"Valor":"Antonio"
+}
+,
+{
+	"modelname":"RespuestaUsuario",
+	"RespuestaUsuario":"",
+	"Encuesta":1,
+	"Usuario":1,
+	"PreguntaEncuesta":35,
+	"Valor":"Ramirez"
+}
+,
+{
+	"modelname":"RespuestaUsuario",
+	"RespuestaUsuario":"",
+	"Encuesta":1,
+	"Usuario":1,
+	"PreguntaEncuesta":36,
+	"Valor":"Santander"
+}
+,
+{
+	"modelname":"RespuestaUsuario",
+	"RespuestaUsuario":"",
+	"Encuesta":1,
+	"Usuario":1,
+	"PreguntaEncuesta":37,
+	"Valor":"02/02/1981"
+},
+{
+	"modelname":"RespuestaUsuario",
+	"RespuestaUsuario":"",
+	"Encuesta":1,
+	"Usuario":1,
+	"PreguntaEncuesta":38,
+	"Valor":"Diana Martinez"
+},
+{
+	"modelname":"RespuestaUsuario",
+	"RespuestaUsuario":"",
+	"Encuesta":1,
+	"Usuario":1,
+	"PreguntaEncuesta":39,
+	"RespuestaEncuesta":13,
+	"Valor":""
+}
+```
