@@ -1,7 +1,8 @@
 # Trivial API
 > Antonio Ramírez Santander
 
-
+## Como obtener un token para el usuario 
+curl -u zaprax:testpass http://trivialsoft.com/api.viakon/x/token -d "grant_type=password&username=USER&password=PWD"
 
 ## Como Leer
 
