@@ -266,6 +266,7 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 ```
 
 ## Ejemplo de guardar respuestas del usuario 
+> POST: http://trivialsoft.com/api.viakon/x/anycollection
 
 ```plain
 [
@@ -356,6 +357,14 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 	]
 }
 ```
+
+## Consultar si ta contesto 
+
+
+
+
+
+
 
 
 
