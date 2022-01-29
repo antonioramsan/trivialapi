@@ -323,3 +323,40 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 }
 ]
 ```
+
+## Respuesta Satisfactoria
+
+```json
+{
+    "resp": "Actualizado",
+    "id": "263",
+    "model": "RespuestaUsuario",
+    "status": 1,
+    "updates": "{'RespuestaUsuario_257':'','RespuestaUsuario_258':'','RespuestaUsuario_259':'','RespuestaUsuario_260':'','RespuestaUsuario_261':'','RespuestaUsuario_262':'','RespuestaUsuario_263':''}",
+    "exmessage": "",
+    "validations": []
+}
+
+```
+
+## Respuesta No Satisfactoria
+```json
+{
+    "status": 0,
+    "exmessage": "",
+    "updates": "{}",
+    "resp": "",
+    "model": "",
+    "validations": [
+		{
+		  "errcode": "0001",
+		  "desc":"Se acabaron los lugares del Horario",
+		  "id": 50 
+		}
+	]
+}
+```
+
+
+
+
