@@ -358,7 +358,7 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 }
 ```
 
-## Consultar si ta contesto 
+## Consultar si ya contesto el usuario 
 
 GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 
