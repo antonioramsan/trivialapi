@@ -360,7 +360,80 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 
 ## Consultar si ta contesto 
 
+GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 
+> Si el responde un array de longitud 0 no ha contestado
+
+> Nota: ***Solo el admin puede recuperar todas las respuestas***
+
+## Ejemplo de respuesta:
+```json
+[
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "566",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "33",
+        "RespuestaEncuesta": null,
+        "Valor": "Leonardo"
+    },
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "567",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "35",
+        "RespuestaEncuesta": null,
+        "Valor": "Santos"
+    },
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "568",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "36",
+        "RespuestaEncuesta": null,
+        "Valor": ""
+    },
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "569",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "37",
+        "RespuestaEncuesta": null,
+        "Valor": "02/02/1985"
+    },
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "570",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "38",
+        "RespuestaEncuesta": null,
+        "Valor": "Uno Dos Tres"
+    },
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "571",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "39",
+        "RespuestaEncuesta": "13",
+        "Valor": ""
+    },
+    {
+        "modelname": "RespuestaUsuario",
+        "RespuestaUsuario": "572",
+        "Encuesta": "1",
+        "Usuario": null,
+        "PreguntaEncuesta": "67",
+        "RespuestaEncuesta": "48",
+        "Valor": ""
+    }
+]
+```
 
 
 
