@@ -362,7 +362,7 @@ http://trivialsoft.com/api.viakon/x/TipoPregunta
 
 GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 
-> Si el responde un array de longitud 0 no ha contestado
+> Si el endpoint responde un array de longitud 0 el usuario no ha contestado la encuesta
 
 > Nota: ***Solo el admin puede recuperar todas las respuestas***
 
