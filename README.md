@@ -435,7 +435,29 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 ]
 ```
 
+## Sesiones de la agenda
+* Todas la sesiones: 
+> GET: http://localhost:81/api.viakon/x/Sesion
 
+* Las sesiones del dia 1 
+> http://localhost:81/api.viakon/x/Sesion/{"DiaEvento":1}
+
+```json
+[
+    {
+        "modelname": "Sesion",
+        "Sesion": "1",
+        "Nombre": "Registro",
+        "Evento": "1",
+        "Detalle": "Ma\u00f1ana llegadas Se les pedir\u00e1n antes por correo la prueba negativa de Covid-19, sino llegando se les har\u00e1 la prueba r\u00e1pida",
+        "DiaEvento": "1",
+        "Horario": "8:00 - 17:00",
+        "Lugar": "Restaurante Azul Buffet,\u00a0 Ambiente Lugar: Karaoke Bar, Ambiente Ambassador",
+        "Ordenamiento": "1.0000"
+    }
+]
+
+```
 
 
 
