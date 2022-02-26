@@ -459,7 +459,24 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 
 ```
 
+## Expositores del Evento
+* Todos los expositores: 
+> GET: http://localhost:81/api.viakon/x/Expositor
 
+```json
+[
+    {
+        "modelname": "Expositor",
+        "Expositor": "1",
+        "Nombre": "Jaime S",
+        "Resumen": "Aqui va la bio...",
+        "URLFoto": "",
+        "Ordenamiento": "1.0000",
+        "Evento": "1"
+    }
+]
+
+```
 
 
 
