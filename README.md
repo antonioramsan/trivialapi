@@ -481,12 +481,63 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 ## Tipos de sesiones 
 > GET: http://localhost:81/api.viakon/x/TipoSesion
 
+```json
+[
+    {
+        "modelname": "TipoSesion",
+        "TipoSesion": "1",
+        "Nombre": "Agenda Normal"
+    },
+    {
+        "modelname": "TipoSesion",
+        "TipoSesion": "2",
+        "Nombre": "Conferencia"
+    }
+]
+```
+
 ## Status de sesiones 
 > GET: http://localhost:81/api.viakon/x/StatusSesion
+```json
+[
+    {
+        "modelname": "StatusSesion",
+        "StatusSesion": "1",
+        "Nombre": "Pausada"
+    },
+    {
+        "modelname": "StatusSesion",
+        "StatusSesion": "2",
+        "Nombre": "En Curso"
+    }
+]
+```
 
 ## Conferencias 
 > GET: http://localhost:81/api.viakon/x/Sesion.SesionApp/Conferencias
 
+```json
+[
+    {
+        "id": "4",
+        "titulo": "Conferencia ",
+        "status": "1"
+    },
+    {
+        "id": "23",
+        "titulo": "Conferencia \"La Magia del Cambio\"",
+        "status": "1"
+    }
+]
+```
+
 ## Id y Role de usuario 
 > GET: http://localhost:81/api.viakon/x/Usuario/_info
-
+```json
+[
+    {
+        "id": "2",
+        "rol": "3"
+    }
+]
+```
