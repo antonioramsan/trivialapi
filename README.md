@@ -478,6 +478,15 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 
 ```
 
+## Tipos de sesiones 
+> GET: http://localhost:81/api.viakon/x/TipoSesion
 
+## Status de sesiones 
+> GET: http://localhost:81/api.viakon/x/StatusSesion
 
+## Conferencias 
+> GET: http://localhost:81/api.viakon/x/Sesion.SesionApp/Conferencias
+
+## Id y Role de usuario 
+> GET: http://localhost:81/api.viakon/x/Usuario/_info
 
