@@ -541,3 +541,60 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
     }
 ]
 ```
+
+## recuperar mensajes 
+> GET: http://localhost:81/api.viakon/x/Mensaje
+> Ejemplo de respuesta 
+```json
+[
+    {
+        "modelname": "Mensaje",
+        "Mensaje": "9",
+        "Nombre": "TEST",
+        "Texto": "TEST",
+        "FechaAlta": "2022-03-13 14:35:23"
+    },
+    {
+        "modelname": "Mensaje",
+        "Mensaje": "13",
+        "Nombre": "mensaje de prueba leo",
+        "Texto": "cuerpo de mensaje de prueba leo",
+        "FechaAlta": "2022-03-13 15:45:28"
+    }
+]
+```
+
+
+
+## sincronizar token
+> POST: http://localhost:81/api.viakon/x/anycollection/RELACIONA
+
+> Nota: 1 = Android, 2 = IOS
+```json
+[
+    {
+        "modelname": "Mensaje.MensajeApp",
+        "Mensaje.MensajeApp":"",
+        "id": "ABCabc123GGGxx11fff",
+        "os": "1"
+    }
+]
+```
+## enviar mensaje a grupo de usuario 
+> POST: http://localhost:81/api.viakon/x/anycollection/ENVIA
+
+```json
+[
+    {
+    "modelname":"Mensaje.MensajeApp",
+    "grupo":"1",
+    "asunto":"Viakon Enlaza",
+    "cuerpo":"Hello VE"
+    }
+]
+```
+
+
+
+
+
