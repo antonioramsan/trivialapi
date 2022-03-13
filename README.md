@@ -552,6 +552,7 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
         "Mensaje": "9",
         "Nombre": "TEST",
         "Texto": "TEST",
+		"Link":null,
         "FechaAlta": "2022-03-13 14:35:23"
     },
     {
@@ -559,6 +560,7 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
         "Mensaje": "13",
         "Nombre": "mensaje de prueba leo",
         "Texto": "cuerpo de mensaje de prueba leo",
+		"Link":"https://www.viakonenlaza2022.com/publicaciones/test.html"
         "FechaAlta": "2022-03-13 15:45:28"
     }
 ]
