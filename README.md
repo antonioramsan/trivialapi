@@ -596,6 +596,10 @@ GET: http://localhost:81/api.viakon/x/RespuestaUsuario
 ]
 ```
 
+## para recuperar los dias de evento 
+> GET: http://localhost:81/api.viakon/x/DiaEvento
+
+
 
 
 
